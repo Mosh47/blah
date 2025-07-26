@@ -84,6 +84,7 @@ export function onvariableLedCountChanged(){
 
 function GetRGBFromSubdevices(){
 	const RGBData = [];
+	let globalLedIndex = 0;
 
 	for(const subdevice of subdevices){
 		const ledPositions = subdevice.ledPositions;
@@ -98,9 +99,10 @@ function GetRGBFromSubdevices(){
 				color = device.subdeviceColor(subdevice.id, ledPosition[0], ledPosition[1]);
 			}
 
-			RGBData[i * 3] = color[0];
-			RGBData[i * 3 + 1] = color[1];
-			RGBData[i * 3 + 2] = color[2];
+			RGBData[globalLedIndex * 3] = color[0];
+			RGBData[globalLedIndex * 3 + 1] = color[1];
+			RGBData[globalLedIndex * 3 + 2] = color[2];
+			globalLedIndex++;
 		}
 	}
 
