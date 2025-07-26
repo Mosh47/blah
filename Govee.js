@@ -996,8 +996,8 @@ const GoveeDeviceLibrary = {
 				name: "Widescreen TV Backlight",
 				ledCount: 6,
 				size: [6, 3],
-				ledNames: ["Bottom Left", "Left Side", "Top Left", "Top Right", "Right Side", "Bottom Right"],
-				ledPositions: [[0, 2], [0, 1], [0, 0], [5, 0], [5, 1], [5, 2]],
+				ledNames: ["Bottom Left", "Bottom Right", "Right Side", "Top Right", "Top Left", "Left Side"],
+				ledPositions: [[1, 2], [4, 2], [5, 1], [4, 0], [1, 0], [0, 1]],
 			},
 		]
 	},
