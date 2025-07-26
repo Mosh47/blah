@@ -987,17 +987,7 @@ const GoveeDeviceLibrary = {
 		state: 1,
 		supportRazer: false,
 		supportDreamView: true,
-		ledCount: 0,
-		usesSubDevices: true,
-		subdevices: [
-			{
-				name: "RGBIC Pro Strip Light Y-Split",
-				ledCount: 15,
-				size: [15, 8],
-				ledNames: ["Led 1", "Led 2", "Led 3", "Led 4", "Led 5", "Led 6", "Led 7", "Led 8", "Led 9", "Led 10", "Led 11", "Led 12", "Led 13", "Led 14", "Led 15"],
-				ledPositions: [[7, 0], [7, 1], [7, 2], [7, 3], [7, 4], [6, 5], [5, 6], [4, 7], [8, 5], [9, 6], [10, 7], [3, 7], [2, 7], [1, 7], [0, 7]],
-			},
-		]
+		ledCount: 15
 	},
 	H619E: {
 		name: "2*10m RGBIC Pro Strip Lights",
