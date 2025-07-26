@@ -993,7 +993,7 @@ const GoveeDeviceLibrary = {
 		supportDreamView: true,
 		ledCount: 0,
 		usesSubDevices: true,
-		subdevices: [
+				subdevices: [
 			{
 				name: "Bottom Left",
 				ledCount: 1,
@@ -1002,21 +1002,7 @@ const GoveeDeviceLibrary = {
 				ledPositions: [[0, 0]],
 			},
 			{
-				name: "Bottom Right",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "Right Side",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "Top Right",
+				name: "Left Side",
 				ledCount: 1,
 				size: [1, 1],
 				ledNames: ["Led 1"],
@@ -1030,7 +1016,21 @@ const GoveeDeviceLibrary = {
 				ledPositions: [[0, 0]],
 			},
 			{
-				name: "Left Side",
+				name: "Top Right",
+				ledCount: 1,
+				size: [1, 1],
+				ledNames: ["Led 1"],
+				ledPositions: [[0, 0]],
+			},
+			{
+				name: "Right Side",
+				ledCount: 1,
+				size: [1, 1],
+				ledNames: ["Led 1"],
+				ledPositions: [[0, 0]],
+			},
+			{
+				name: "Bottom Right",
 				ledCount: 1,
 				size: [1, 1],
 				ledNames: ["Led 1"],
