@@ -1036,27 +1036,6 @@ const GoveeDeviceLibrary = {
 				ledNames: ["Led 1"],
 				ledPositions: [[0, 0]],
 			},
-			{
-				name: "LED 7",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "LED 8",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "LED 9",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
 		]
 	},
 	H619E: {
