@@ -58,6 +58,8 @@ export function Initialize(){
 	govee = new GoveeProtocol(controller.ip, controller.supportDreamView, controller.supportRazer);
 	// This is what happens in my wireshark
 	govee.setDeviceState(true);
+	govee.SetRazerMode(true);
+	govee.SetRazerMode(true);
 	govee.setDeviceState(true);
 }
 
