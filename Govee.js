@@ -989,7 +989,17 @@ const GoveeDeviceLibrary = {
 		state: 1,
 		supportRazer: false,
 		supportDreamView: true,
-		ledCount: 9
+		ledCount: 0,
+		usesSubDevices: true,
+		subdevices: [
+			{
+				name: "Widescreen TV Backlight",
+				ledCount: 9,
+				size: [7, 4],
+				ledNames: ["Top Left", "Top Center", "Top Right", "Right Side", "Bottom Right", "Bottom Center", "Bottom Left", "Left Side", "Center"],
+				ledPositions: [[1, 0], [3, 0], [5, 0], [6, 2], [5, 3], [3, 3], [1, 3], [0, 2], [3, 2]],
+			},
+		]
 	},
 	H619E: {
 		name: "2*10m RGBIC Pro Strip Lights",
