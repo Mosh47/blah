@@ -984,52 +984,14 @@ const GoveeDeviceLibrary = {
 		supportDreamView: true,
 		ledCount: 15
 	},
-	H619D: {
+		H619D: {
 		name: "2*7.5m RGBIC Pro Strip Lights",
 		deviceImage: "https://assets.signalrgb.com/devices/brands/govee/wifi/h619a.png",
 		sku: "H619D",
 		state: 1,
 		supportRazer: false,
 		supportDreamView: true,
-		ledCount: 0,
-		usesSubDevices: true,
-								subdevices: [
-			{
-				name: "LED 1",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "LED 2",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "LED 3",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "LED 4",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-			{
-				name: "LED 5",
-				ledCount: 1,
-				size: [1, 1],
-				ledNames: ["Led 1"],
-				ledPositions: [[0, 0]],
-			},
-		]
+		ledCount: 15
 	},
 	H619E: {
 		name: "2*10m RGBIC Pro Strip Lights",
